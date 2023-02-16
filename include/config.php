@@ -17,13 +17,15 @@ define("ICON", "./favicon.ico");
 //网站标题
 define("NAME", "FileShareSystem");
 //网站副标题 TIP:目前只能显示在title上，其他地方还没想好放哪
-define("SUBNAME", " ");
+define("SUBNAME", "- Powered By FileShareSystem");
 //网站底部版权
 define("COPYNAME", "FileShareSystem");
 //网站底部版权年份
 define("COPYEAR", "2022");
 //网站版权指向URL
 define("URLSITE", "http://".$_SERVER['SERVER_NAME']);
+//ICP备案信息（可不填）
+define("icp", "");
 //网站根目录
 define("ROOT", dirname(__FILE__));
 //网站文件目录
