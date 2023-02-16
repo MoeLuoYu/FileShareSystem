@@ -2,7 +2,7 @@
 /*
  Author:AroRain(MoeLuoYu)
  This is free software,do not use it for business.
- $ id: FileShareSystem_config 2022-4-11 CST MoeLuoYu $
+ $ id: FileShareSystem_config 2023-2-17 CST MoeLuoYu $
 */
 //服务器会话
 session_start();
