@@ -69,5 +69,4 @@ function xhtml_footer()
 </html>
 XHTML;
 }
-
 ?>
