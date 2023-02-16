@@ -49,8 +49,8 @@ function xhtml_footer()
     echo <<<XHTML
 <footer>
   <div id="footer">&copy;{$copyear}
-    <a href="{$urlsite}">{$copyname} </a>{$cop}</div>{$gitname} {$author} {$opensrc}
-  <a href="https://github.com/MoeLuoYu/FileShareSystem/" target="_blank">FileShareSystem</a>{$build}
+    <a href="{$urlsite}">{$copyname}</a> {$cop}</div>{$gitname} {$author} {$opensrc}
+  <a href="https://github.com/MoeLuoYu/FileShareSystem/" target="_blank">FileShareSystem</a> {$build}
   </br>
   </br>
   <a href="https://beian.miit.gov.cn/" target="_blank">{$icp}</a>
