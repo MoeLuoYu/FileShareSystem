@@ -2,14 +2,13 @@
 /*
  Author:AroRain(MoeLuoYu)
  This is free software,do not use it for business.
- $ id: FileShareSystem_template 2023-2-17 CST MoeLuoYu $
+ $ id: FileShareSystem_template 2023-2-28 CST MoeLuoYu $
 */
-function xhtml_head()
-{
-    $name = NAME;
-    $subname = SUBNAME;
-    $icon = ICON;
-    echo <<<XHTML
+function xhtml_head() {
+$name = NAME;
+$subname = SUBNAME;
+$icon = ICON;
+echo <<<XHTML
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   
@@ -23,7 +22,7 @@ function xhtml_head()
     <script src="./static/highlight/highlight.min.js">
     </script>
     <script>hljs.highlightAll();</script>
-    <!----(自定义头部HTML)---->
+    <!----(Custom Header HTML)---->
     <div>
     </div>
   </head>
@@ -33,30 +32,42 @@ function xhtml_head()
   </body>
 XHTML;
 }
-
-function xhtml_footer()
-{
-    $name = NAME;
-    $urlsite = URLSITE;
-    $cop = cop;
-    $copyname = COPYNAME;
-    $copyear = COPYEAR;
-    $gitname = gitname;
-    $opensrc = opensrc;
-    $build = build;
-    $author = author;
-    $icp = icp;
-    echo <<<XHTML
+function xhtml_footer() {
+$name = NAME;
+$urlsite = URLSITE;
+$host = $_SERVER['SERVER_NAME'];
+$cop = cop;
+$copyname = COPYNAME;
+$copyear = COPYEAR;
+$gitname = gitname;
+$opensrc = opensrc;
+$build = build;
+$author = author;
+$icp = icp;
+$authortitle = authortitle;
+$authorinfo = authorinfo;
+echo <<<XHTML
 <footer>
   <div id="footer">&copy;{$copyear}
-    <a href="{$urlsite}">{$copyname}</a> {$cop}</div>{$gitname} {$author} {$opensrc}
-  <a href="https://github.com/MoeLuoYu/FileShareSystem/" target="_blank">FileShareSystem</a> {$build}
+    <a href="{$urlsite}">{$copyname}</a>{$cop}</div>{$gitname} {$author} {$opensrc}
+  <a href="https://github.com/MoeLuoYu/FileShareSystem/" target="_blank">FileShareSystem</a>{$build}</br>
+  <div style="width:150px;overflow: hidden;">
+    <button onclick="onTileClick()">{$authortitle}</button>
+    <div id="content" style="height:0px;background-color: trans;transition: height 0.2s;">{$authorinfo}
+      <br>{$host}
+      <br></div>
+  </div>
+  <script type="text/javascript">var content = document.getElementById("content");
+    function onTileClick() {
+      content.style.height = content.offsetHeight === 150 ? 0 + 'px': 150 + 'px';
+    }</script>
   </br>
   </br>
   <a href="https://beian.miit.gov.cn/" target="_blank">{$icp}</a>
+  <!----(Custom Footer HTML)---->
   <div>
-  <!----(自定义底部HTML)---->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6385529732033594" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6385529732033594" crossorigin="anonymous">
+    </script>
     <script type="text/javascript">var e = document.querySelectorAll("code");
       var e_len = e.length;
       var i;
