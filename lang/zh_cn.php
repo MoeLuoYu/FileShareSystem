@@ -1,8 +1,7 @@
 <?php
 /*
  Author:AroRain(MoeLuoYu)
- This is free software,do not use it for business.
- $ id: FileShareSystem_lang_zh_cn 2022-4-11 CST MoeLuoYu $
+ $ id: FileShareSystem_lang_zh_cn 2023-2-28 CST MoeLuoYu $
 */
 
 // index.php
@@ -20,9 +19,11 @@ define("download", "下载");
 define("updatetime", "更新时间");
 define("backtop", "返回上页");
 // template.php
-define("cop", "版权所有");
+define("cop", " 版权所有");
+define("authortitle", "授权信息");
+define("authorinfo", "兹授权");
 // 404.php
-define("notfound", "你的请求资源无法找到");
+define("notfound", "您请求的资源未找到");
 // view.php
 define("view", "查看文件");
 define("backdir", "返回目录");
@@ -44,4 +45,9 @@ define("latestedit", "最后编辑");
 define("md5hash", "文件校验");
 define("md5value", "文件的MD5散列值");
 define("sha1value", "文件的SHA1散列值");
+//为保护原作者权益请不要删除或修改以下文本
+define("gitname", "本站采用");
+define("opensrc", "的开源项目");
+define("build", "搭建");
+define("author", "MoeLuoYu(AroRain落雨)")
 ?>
