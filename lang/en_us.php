@@ -2,7 +2,7 @@
 /*
  Author:AroRain(MoeLuoYu)
  This is free software,do not use it for business.
- $ id: FileShareSystem_lang_zh_cn 2022-4-11 CST MoeLuoYu $
+ $ id: FileShareSystem_lang_zh_cn 2023-2-28 CST MoeLuoYu $
 */
 
 // index.php
@@ -20,7 +20,9 @@ define("download", "Download");
 define("updatetime", "Update Time");
 define("backtop", "Back To Top");
 // template.php
-define("cop", "All Right Reserved");
+define("cop", " All Right Reserved");
+define("authortitle", "Authorization information");
+define("authorinfo", "Licensed authorize to");
 // 404.php
 define("notfound", "Not Found");
 // view.php
@@ -44,4 +46,9 @@ define("latestedit", "Final Edit");
 define("md5hash", "File Validation");
 define("md5value", "MD5 hash of the file");
 define("sha1value", "SHA1 hash of the file");
+//To protect the rights of the original author, please do not delete or modify the following text
+define("gitname", "This site uses ");
+define("opensrc", "'s open source project");
+define("build", "to build");
+define("author", "MoeLuoYu(AroRain落雨)")
 ?>
