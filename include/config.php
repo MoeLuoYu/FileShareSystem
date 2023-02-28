@@ -28,10 +28,10 @@ define("URLSITE", "http://".$_SERVER['SERVER_NAME']);
 define("icp", "");
 //网站根目录
 define("ROOT", dirname(__FILE__));
-//网站文件目录
+//网站文件目录 TIPS:请相对于配置文件目录进行设置
 define("OPEN", ROOT . "/../files");
-//网站语言 WARN:请不要删除前面的相对路径，否则可能会导致网站空白
-define("LANG", "./lang/zh_cn.php");
+//网站语言
+define("LANG", "zh_cn");
 //载入对象库
 require ROOT . "/base.php";
 //载入模板库
