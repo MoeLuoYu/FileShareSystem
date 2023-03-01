@@ -1,14 +1,17 @@
 # FileShareSystem
 ## 让您更加简单的分享您的文件
 
+#Release 更新不及时！如有需要请直接clone项目！
+
 本程序基于PHP5.4开发，理论支持所有PHP版本
-### 通过测试的PHP版本： PHP-54 PHP-56 PHP-70 PHP-72
+### 通过测试的PHP版本： PHP-54 PHP-56 PHP-70 PHP-72 PHP-74 PHP-80 PHP-81
 
 大家可以自行尝试
 
 配置文件内有全面的网站设置，大家可以根据需要自行DIY
 
 接受社区内语言更新，欢迎大家投稿
+Accept language updates in the community, welcome to contribute
 
 本程序依照 GNU General Public License v3.0 开源协议进行开源
 
