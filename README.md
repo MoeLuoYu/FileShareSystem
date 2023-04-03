@@ -4,7 +4,8 @@
 #Release 更新不及时！如有需要请直接clone项目！
 
 本程序基于PHP5.4开发，理论支持所有PHP版本
-### 通过测试的PHP版本： PHP-54 PHP-56 PHP-70 PHP-72 PHP-74 PHP-80 PHP-81
+### 通过测试的PHP版本： PHP-54 PHP-56 PHP-70 PHP-72 PHP-74
+### 不支持的PHP版本：PHP-80 PHP-81 （这些版本会出现白屏错误）
 
 大家可以自行尝试
 
