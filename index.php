@@ -219,7 +219,6 @@ if ($requestedDir === false || strpos($requestedDir, $baseDir) !== 0) {
                 function directory($cur)
                 {
                     global $fileExtensionIcon;
-                    global $canPreview;
                     $path = getConfig()->fileDirectory . $cur;
                     // 尝试调用 scandir 函数
                     $all = @scandir($path);
