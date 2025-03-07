@@ -1,4 +1,4 @@
-# FileShareSystem
+# FileShareSystem ## 2.0
 ## 让您更加简单的分享您的文件
 
 #Release 更新不及时！如有需要请直接clone项目！
