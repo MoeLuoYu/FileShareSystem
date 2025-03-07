@@ -1,25 +1,16 @@
-# FileShareSystem ## 2.0
-## 让您更加简单的分享您的文件
+# FileShareSystem 2.0
 
-#Release 更新不及时！如有需要请直接clone项目！
+## 失踪人口回归！我重制了所有代码！
+## 简介
+让您更加简单的分享您的文件
+纯粹的、回归原始的，仅仅是模仿了Nginx目录浏览的功能！
+新版没有文件预览功能！
 
-本程序基于PHP5.4开发，理论支持所有PHP版本
-### 通过测试的PHP版本： PHP-54 PHP-56 PHP-70 PHP-72 PHP-74
-### 不支持的PHP版本：PHP-80 PHP-81 （这些版本会出现白屏错误）
 
-大家可以自行尝试
+## 本程序基于PHP7.2开发，支持所有PHP版本
 
 配置文件内有全面的网站设置，大家可以根据需要自行DIY
-
-接受社区内语言更新，欢迎大家投稿
-Accept language updates in the community, welcome to contribute
-
-本程序依照 GNU General Public License v3.0 开源协议进行开源
-
 如果觉得我做的不错别忘了在Github上面给我点一颗star哦！
-
-
-
 
 ## 支持与捐赠
 如果您觉得本程序做的不错，您可以捐赠支持我！
@@ -28,22 +19,15 @@ Accept language updates in the community, welcome to contribute
 
 感谢您对开源项目的支持！
 
+## 问题反馈与支持
+如果你在使用过程中遇到任何问题或有改进建议，请提交 Issues，我们将尽快处理。
 
+## 贡献代码
+欢迎开发者为该插件贡献代码。如果你有好的想法或改进方案，请提交 Pull Request，我们会认真审核并合并优秀的贡献。
 
-## 开源协议
-### 本项目源码采用 GNU General Public License v3.0 开源协议。
+## 联系方式
+如果在使用过程中遇到任何问题或有任何建议，欢迎联系插件开发者：
+- **QQ**：1498640871
 
-
->## 关于 GPL 协议
->[GNU General Public Licence](http://www.opensource.org/licenses/gpl-2.0.php) (GPL) 有可能是开源界最常用的许可模式。GPL 保证了所有开发者的权利，同时为使用者提供了足够的复制，分发，修改的权利：
->## 可自由复制
->你可以将软件复制到你的电脑，你客户的电脑，或者任何地方。复制份数没有任何限制。
->## 可自由分发
->在你的网站提供下载，拷贝到U盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。
->## 可以用来盈利
->你可以在分发软件的时候收费，但你必须在收费前向你的客户提供该软件的 GNU GPL 许可协议，以便让他们知道，他们可以从别的渠道免费得到这份软件，以及你收费的理由。
->## 可自由修改
->如果你想添加或删除某个功能，没问题，如果你想在别的项目中使用部分代码，也没问题，唯一的要求是，使用了这段代码的项目也必须使用 GPL 协议。
->### **需要注意的是，分发的时候，需要明确提供源代码和二进制文件，另外，用于某些程序的某些协议有一些问题和限制，你可以看一下 [@PierreJoye](https://twitter.com/PierreJoye) 写的 [Practical Guide to GPL Compliance](http://www.softwarefreedom.org/resources/2008/compliance-guide.html) 一文。使用 GPL 协议，你必须在源代码代码中包含相应信息，以及协议本身。**
-
->以上文字来自 五种开源协议[GPL,LGPL,BSD,MIT,Apache](https://www.oschina.net/question/54100_9455) 。
+## 许可证
+本程序遵循 MIT 许可证进行发布，具体内容请查看 LICENSE 文件。
