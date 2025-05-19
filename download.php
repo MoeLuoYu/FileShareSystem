@@ -3,9 +3,14 @@
  Author:AroRain(MoeLuoYu)
  This is free software,please abide by the MIT open source license when using it.
  Copyright (c) 2023-present Sodayo Beijing Co., Ltd (c) 2020-present MoeLuoYu
- $ id: FileShareSystem_download 2025-3-7 CST MoeLuoYu $
+ $ id: FileShareSystem_download 2025-5-9 CST MoeLuoYu $
 */
 include "config.php";
+
+// 清除输出缓冲区
+ob_clean();
+flush();
+
 function getFilePath(): string {
     global $fileDirectory;
     // 获取并返回文件目录的绝对路径
