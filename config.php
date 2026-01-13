@@ -7,15 +7,15 @@
  $ id: FileShareSystem_config 2025-3-7 CST MoeLuoYu $
 */
 // 系统信息
-$osType = PHP_OS;  
+$osType = PHP_OS;
 // Navbar标题
 $textOnTopLeft = 'FileShareSystem';
 // 默认首页
-$indexPage = 'index.php';
+$indexPage = '/';
 // head内容
 $head = (object) [
     // 网站标题
-    "title" => 'FileShareSystem 2.0',
+    "title" => 'FileShareSystem 2.1',
     // 网站图标
     "icon" => 'assets/img/icon.ico',
     // SEO描述

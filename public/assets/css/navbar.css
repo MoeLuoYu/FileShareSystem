@@ -1,0 +1,81 @@
+
+#navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar .search-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .search-container form {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* 半宽屏响应式样式 */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #navbar .container {
+        flex-wrap: wrap;
+    }
+
+    #navbar ul.nav-menu {
+        flex: 1 1 auto;
+        overflow-x: auto;
+    }
+
+    #navbar .search-container {
+        flex: 0 0 auto;
+        margin-top: 5px;
+    }
+
+    #searchInput {
+        width: 210px !important;
+    }
+}
+
+/* 窄屏响应式搜索容器样式 */
+@media (max-width: 768px) {
+    .search-toggle {
+        display: block !important;
+    }
+
+    .search-container form {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 100;
+        opacity: 0;
+        transform: translateY(-10px);
+        visibility: hidden;
+        transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    }
+
+    .search-container form.active {
+        opacity: 1;
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+    .search-container form input[type="text"] {
+        width: 210px !important;
+    }
+
+    #navbar ul.nav-menu {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #navbar .logo {
+        width: 50%;
+    }
+}
